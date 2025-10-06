@@ -1,0 +1,6 @@
+[ 2025-10-04 23:35:09,903 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-10-04 23:35:09,903 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-10-04 23:35:12,108 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-10-04 23:35:12,116 ] 97 werkzeug - INFO -  * Debugger PIN: 104-393-501
+[ 2025-10-04 23:35:15,389 ] 66 root - INFO - Data frame gathered
+[ 2025-10-04 23:35:20,578 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Oct/2025 23:35:20] "POST /predict HTTP/1.1" 200 -

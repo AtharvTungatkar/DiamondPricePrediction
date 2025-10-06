@@ -1,0 +1,10 @@
+[ 2025-10-04 22:32:16,362 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-10-04 22:32:16,362 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-10-04 22:32:17,650 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-10-04 22:32:17,667 ] 97 werkzeug - INFO -  * Debugger PIN: 104-393-501
+[ 2025-10-04 22:32:22,082 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Oct/2025 22:32:22] "GET /predict HTTP/1.1" 200 -
+[ 2025-10-04 22:32:43,374 ] 66 root - INFO - Data frame gathered
+[ 2025-10-04 22:32:43,687 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sklearn\\base.py', reloading
+[ 2025-10-04 22:32:43,688 ] 50 root - INFO - Exception occured while loading object
+[ 2025-10-04 22:32:43,688 ] 27 root - INFO - Exception occured in prediction pipeline
+[ 2025-10-04 22:32:43,701 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Oct/2025 22:32:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -

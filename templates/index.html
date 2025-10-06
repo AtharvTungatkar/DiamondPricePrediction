@@ -1,1 +1,135 @@
-<h1>    Home Page   </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Diamond Standard - Price Valuation</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font and deep black background */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a; /* Deep Black */
+            color: #FFFFFF;
+            min-height: 100vh;
+            position: relative; /* Needed for watermark position */
+        }
+        /* Define a sparkling white/silver accent color */
+        .text-accent { color: #BAE6FD; } /* Light Sky Blue for brilliance */
+        .bg-accent-btn { 
+            background: linear-gradient(45deg, #BAE6FD, #60A5FA); /* Blue/Silver Gradient */
+            color: #0a0a0a;
+            box-shadow: 0 4px 15px rgba(186, 230, 253, 0.6);
+        }
+        .bg-accent-btn:hover {
+            background: linear-gradient(45deg, #E0F2FE, #93C5FD);
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(186, 230, 253, 0.8);
+        }
+        /* Card background with high transparency and blur for "diamond" look */
+        .card-bg {
+            background-color: rgba(255, 255, 255, 0.05); /* Very low opacity white */
+            backdrop-filter: blur(8px); 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Subtle Project Watermark */
+        .project-watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-15deg);
+            font-size: 8rem; /* Large text */
+            font-weight: 900;
+            color: rgba(255, 255, 255, 0.03); /* Extremely subtle white */
+            pointer-events: none;
+            z-index: 0;
+            white-space: nowrap;
+        }
+
+        /* Style for the elegant diamond header strip */
+        .diamond-header {
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            z-index: 50;
+            border-bottom: 1px solid rgba(186, 230, 253, 0.1);
+            background: rgba(10, 10, 10, 0.8); /* Semi-transparent background */
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center min-h-screen">
+    
+    <!-- Top Diamond Header Strip -->
+    <div class="diamond-header flex items-center justify-center">
+        <!-- Using inline SVG for high-quality, scalable diamond icon -->
+        <svg class="w-8 h-8 text-accent mx-3 opacity-90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 10l10 12 10-12L12 2zM12 2v20M2 10h20M7 10l5 12 5-12"/>
+        </svg>
+        <svg class="w-10 h-10 text-accent mx-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 10l10 12 10-12L12 2zM12 2v20M2 10h20M7 10l5 12 5-12"/>
+        </svg>
+        <svg class="w-8 h-8 text-accent mx-3 opacity-90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 10l10 12 10-12L12 2zM12 2v20M2 10h20M7 10l5 12 5-12"/>
+        </svg>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <div class="flex items-center justify-center flex-grow pt-16 p-4 w-full">
+        <!-- Main Content Card - Luxurious Look -->
+        <div class="max-w-2xl w-full card-bg p-10 md:p-16 rounded-3xl shadow-2xl text-center transition duration-500 relative overflow-hidden">
+            
+            <!-- Watermark Text -->
+            <div class="project-watermark hidden sm:block">
+                Atharv
+            </div>
+
+            <!-- Large Diamond SVG Placeholder in background -->
+            <div class="absolute inset-0 opacity-10 flex items-center justify-center pointer-events-none">
+                <!-- Diamond SVG placeholder -->
+                <svg class="w-2/3 h-2/3 text-white/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 10l10 12 10-12L12 2zM12 2v20M2 10h20M7 10l5 12 5-12"/>
+                </svg>
+            </div>
+
+            <div class="relative z-10">
+                <!-- Header / Logo Area -->
+                <p class="text-xl tracking-widest uppercase text-accent mb-4 font-semibold">
+                    Diamond Price Predictor
+                </p>
+
+                <!-- Title -->
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight text-white">
+                    <span class="text-accent">Clarity</span> in Valuation
+                </h1>
+                
+                <!-- Subtitle and Description -->
+                <p class="text-lg text-gray-300 mb-12 max-w-lg mx-auto">
+                    Utilize my advanced machine learning model to estimate the precise market value of your diamond instantly.
+                </p>
+
+                <!-- Prediction Button - Clean Crystalline Style -->
+                <a href="/predict" class="inline-block">
+                    <button class="bg-accent-btn font-extrabold py-4 px-12 rounded-full transition duration-300 ease-in-out">
+                        START VALUATION
+                    </button>
+                </a>
+            </div>
+
+            <!-- Footer Note / Project Credit -->
+            <div class="mt-16 pt-8 border-t border-gray-700 relative z-10">
+                <p class="text-sm text-gray-500 tracking-wider mb-2">
+                    Precision &middot; Transparency &middot; Market Insight
+                </p>
+                <p class="text-sm text-gray-600 tracking-wider">
+                    Project by: Atharv Prashant Tungatkar
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

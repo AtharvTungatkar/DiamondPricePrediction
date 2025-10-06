@@ -1,0 +1,26 @@
+[ 2025-10-04 22:27:56,731 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-10-04 22:27:56,731 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-10-04 22:27:58,447 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-10-04 22:27:58,462 ] 97 werkzeug - INFO -  * Debugger PIN: 104-393-501
+[ 2025-10-04 22:27:58,765 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\core\\intfunc.py', reloading
+[ 2025-10-04 22:27:58,814 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+[ 2025-10-04 22:27:58,847 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\geometry\\exceptions.py', reloading
+[ 2025-10-04 22:27:58,935 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\matrices\\exceptions.py', reloading
+[ 2025-10-04 22:27:58,946 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\matrices\\sparsetools.py', reloading
+[ 2025-10-04 22:27:59,052 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyfinitefield.py', reloading
+[ 2025-10-04 22:27:59,072 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\polys\\domains\\pythonfinitefield.py', reloading
+[ 2025-10-04 22:27:59,142 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\printing\\smtlib.py', reloading
+[ 2025-10-04 22:27:59,149 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\release.py', reloading
+[ 2025-10-04 22:27:59,183 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\series\\residues.py', reloading
+[ 2025-10-04 22:27:59,190 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\sympy\\series\\series.py', reloading
+[ 2025-10-04 22:27:59,325 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\absl\\__init__.py', reloading
+[ 2025-10-04 22:27:59,341 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\adodbapi\\__init__.py', reloading
+[ 2025-10-04 22:27:59,341 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiobotocore\\__init__.py', reloading
+[ 2025-10-04 22:27:59,361 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohappyeyeballs\\__init__.py', reloading
+[ 2025-10-04 22:27:59,370 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohappyeyeballs\\impl.py', reloading
+[ 2025-10-04 22:27:59,386 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohappyeyeballs\\types.py', reloading
+[ 2025-10-04 22:27:59,396 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohappyeyeballs\\utils.py', reloading
+[ 2025-10-04 22:27:59,408 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohttp\\__init__.py', reloading
+[ 2025-10-04 22:27:59,420 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohttp\\client.py', reloading
+[ 2025-10-04 22:27:59,467 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohttp\\connector.py', reloading
+[ 2025-10-04 22:27:59,487 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\athar\\anaconda4\\Lib\\site-packages\\aiohttp\\client_exceptions.py', reloading

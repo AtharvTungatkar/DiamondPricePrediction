@@ -1,0 +1,12 @@
+[ 2025-10-04 22:27:06,753 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-10-04 22:27:06,753 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-10-04 22:27:08,894 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.232:5000
+[ 2025-10-04 22:27:08,894 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-10-04 22:27:08,906 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2025-10-04 22:27:49,882 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2025-10-04 22:27:55,517 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2025-10-04 22:27:59,690 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2025-10-04 22:28:03,524 ] 97 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
