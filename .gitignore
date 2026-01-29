@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # Environments
-venv/"artifacts/model.pkl" 
-=======
-# Environments
-venv/"artifacts/model.pkl" 
->>>>>>> 05f6fdfe0445678b388ef810ad90a39447903d7e
+venv/
+
+# Large Artifacts
+artifacts/model.pkl
