@@ -70,15 +70,15 @@ The Diamond Price Prediction project is a comprehensive machine learning applica
 ## 🎬 Demo
 
 ### Application Interface
-![Landing Page](screenshots/landing_page.png)
+![Landing Page](screenshots/landing_page.jpeg)
 *Landing page with project overview*
 
 ### 4C Specification Input
-![Diamond Specification Form](screenshots/specification_form.png)
+![Diamond Specification Form](screenshots/specification_form.jpeg)
 *Interactive form for entering diamond characteristics*
 
 ### Price Prediction Result
-![Price Prediction Result](screenshots/prediction_result.png)
+![Price Prediction Result](screenshots/prediction_result.jpeg)
 *Real-time price estimation based on input parameters*
 
 ---
@@ -525,7 +525,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - GitHub: [@AtharvTungatkar](https://github.com/AtharvTungatkar)
 - LinkedIn: [Connect with me](https://www.linkedin.com/in/atharv-tungatkar)
-- Email: your.email@example.com
+- Email: atharvprashant.tungatkar@gmail.com
 
 ---
 
