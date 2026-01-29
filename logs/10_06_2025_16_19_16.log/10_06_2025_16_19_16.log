@@ -1,0 +1,13 @@
+[ 2025-10-06 16:19:17,282 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-10-06 16:19:17,282 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-10-06 16:19:19,156 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-10-06 16:19:19,165 ] 97 werkzeug - INFO -  * Debugger PIN: 104-393-501
+[ 2025-10-06 16:19:59,763 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:19:59] "GET / HTTP/1.1" 200 -
+[ 2025-10-06 16:20:00,429 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:20:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-10-06 16:20:14,904 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:20:14] "GET /predict HTTP/1.1" 200 -
+[ 2025-10-06 16:23:56,979 ] 66 root - INFO - Data frame gathered
+[ 2025-10-06 16:24:00,101 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:24:00] "POST /predict HTTP/1.1" 200 -
+[ 2025-10-06 16:24:20,713 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:24:20] "GET / HTTP/1.1" 200 -
+[ 2025-10-06 16:24:21,951 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:24:21] "GET /predict HTTP/1.1" 200 -
+[ 2025-10-06 16:24:49,092 ] 66 root - INFO - Data frame gathered
+[ 2025-10-06 16:24:51,343 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Oct/2025 16:24:51] "POST /predict HTTP/1.1" 200 -
